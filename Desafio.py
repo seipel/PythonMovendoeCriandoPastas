@@ -7,10 +7,10 @@ import shutil
 caminho = Path('/home/seipel/Documents/Python/Projetos Destacados/PythonMovendoeCriandoPastas/Arquivos_Lojas')
 arquivos = caminho.iterdir()
 
-'''Criando as Pastas para Cada Gerente
+'''Criando as Pastas para Cada Gerente'''
 estados = ['RJ', 'SP', 'MG', 'GO', 'AM']
 for estado in estados:
-    Path('Arquivos_Lojas/{}'.format(estado)).mkdir()'''
+    Path('Arquivos_Lojas/{}'.format(estado)).mkdir()
 
 '''Retirando Arquivos Selecionados da Lista e Colocando e Cada Pasta Expecifica'''
 
